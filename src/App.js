@@ -26,8 +26,8 @@ function App() {
         setProfile(profileData.data);
         setFollowers(followersData.data);
         setFollowing(followingData.data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
+      } catch (err) {
+        console.error(err);
       }
     };
 
